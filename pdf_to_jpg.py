@@ -4,7 +4,7 @@ import re
 import math
 
 from pdf2image import convert_from_path
-from google.cloud import storage
+# from google.cloud import storage
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--filepath", type=str, help="Path to local image file", required=True)
